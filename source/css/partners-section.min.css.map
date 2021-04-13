@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,AAAC,CACN,OAAO,CAAE,YAAY,CACrB,UAAU,CAAE,MAAM,CACrB",
+    "sources": [
+        "../styles/partners-section.scss"
+    ],
+    "names": [],
+    "file": "partners-section.min.css"
+}

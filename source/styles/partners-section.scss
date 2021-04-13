@@ -1,0 +1,43 @@
+.partners {
+    padding: 130px 0 80px;
+    text-align: center;
+    &-header {
+        @include secondary-header;
+        margin: 0;
+    }
+    &-descr {
+        @include primary-text;
+        margin: 27px 0 10px;
+    }
+    &-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &-item {
+            width: 15%;
+            margin: 103px 76px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &-name {
+                margin: 0;
+                font-size: 12px;
+                line-height: 18px;
+                color: #374754;
+                font-family: 'Roboto Bold';
+            }
+            &-descr {
+                @include secondary-text;
+                margin: 0;
+            }
+            img {
+                margin: 27px 0;
+            }
+        }
+    }
+    &-btn {
+        @include primary-button__big-blue;
+        padding: 16px 58px;
+        margin-top: 90px;
+    }
+}
