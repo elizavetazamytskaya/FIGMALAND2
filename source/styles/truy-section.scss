@@ -1,0 +1,27 @@
+.truy {
+    padding: 110px 0 133px;
+    text-align: center;
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    &-header {
+        @include secondary-header;
+        width: 30%;
+        margin: 0 auto;
+    }
+    &-descr {
+        @include primary-text;
+        margin: 27px 0 90px;
+    }
+    &-btn {
+        @include primary-button__big-blue;
+        padding: 16px 58px;
+        width: 237px;
+        margin: 0 auto;
+    }
+    img {
+        width: 80%;
+        margin: 113px auto 0;
+    }
+}

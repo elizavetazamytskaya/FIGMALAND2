@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,AAAC,CACF,OAAO,CAAE,aAAa,CACtB,UAAU,CAAE,MAAM,CAKrB,AAPD,AAGI,KAHC,CAGD,UAAU,AAAC,CACP,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACzB",
+    "sources": [
+        "../styles/truy-section.scss"
+    ],
+    "names": [],
+    "file": "truy-section.min.css"
+}
