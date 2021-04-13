@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,AAAC,CACV,gBAAgB,CAAE,iCAAiC,CACnD,iBAAiB,CAAE,SAAS,CAC5B,mBAAmB,CAAE,MAAM,CAC3B,eAAe,CAAE,SAAS,CAC1B,OAAO,CAAE,YAAY,CAIxB,AAHI,AAAD,qBAAS,AAAC,CACN,UAAU,CAAE,MAAM,CACrB",
+    "sources": [
+        "../styles/home-section.scss"
+    ],
+    "names": [],
+    "file": "home-section.min.css"
+}
