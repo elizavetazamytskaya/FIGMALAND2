@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,SAAS,AAAC,CACN,UAAU,CAAE,OAAO,CACnB,OAAO,CAAE,YAAY,CACrB,UAAU,CAAE,MAAM,CACrB",
+    "mappings": "AAAA,AAAA,SAAS,AAAC,CACN,OAAO,CAAE,WAAW,CACpB,UAAU,CAAE,OAAO,CACtB",
     "sources": [
         "../styles/contacts-section.scss"
     ],

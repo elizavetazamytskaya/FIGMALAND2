@@ -1,0 +1,99 @@
+.contacts {
+    padding: 95px 0 85px;
+    background: #252B42;
+    text-align: center;
+    &-header {
+        @include secondary-header;
+        color: white;
+    }
+    &-descr {
+        @include primary-text;
+        color: white;
+        margin: 27px 0 60px;
+    }
+    &-items {
+        display: flex;
+        justify-content: center;
+        &-message {
+            display: flex;
+            flex-direction: column;
+            padding: 79px 41px 26px;
+            background: #FFFFFF;
+            border: 0.65371px solid #DDDDDD;
+            box-shadow: 0px 8.49823px 12.4205px rgba(0, 0, 0, 0.07);
+            border-radius: 13.0742px;
+            input {
+                margin-bottom: 31px;
+                background: #F5F5F5;
+                border: 1px solid #E8E8E8;
+                border-radius: 39px;
+                padding: 12px 0 12px 13px;
+                width: 318px;
+                &::placeholder {
+                    font-size: 9.80565px;
+                    line-height: 10px;
+                    color: #18171D;
+                    font-family: 'Roboto Regular';
+                }
+                &:focus {
+                    outline: none;
+                    opacity: 0.7;
+                }
+            }
+            textarea {
+                background: #F5F5F5;
+                border: 0.65371px solid #E8E8E8;
+                box-sizing: border-box;
+                padding: 15px 0 0 13px;
+                &::placeholder {
+                    font-size: 9.80565px;
+                    line-height: 10px;
+                    color: #18171D;
+                    font-family: 'Roboto Regular';
+                }
+                &:focus {
+                    outline: none;
+                    opacity: 0.7;
+                }
+            }
+            button {
+                text-align: center;
+                margin-top: 31px;
+                @include secondary-button__pink;
+                padding: 12px 0;
+                width: 95px;
+                &:hover {
+                    border: 1px solid #EF2779;
+                    color: #EF2779;
+                }
+            }
+        }
+        &-contacts {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 65px;
+            &-item {
+                display: flex;
+                align-items: center;
+                margin-bottom: 25px;
+                text-align: left;
+                p {
+                    margin: 0 0 0 21px;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #FFFFFF;
+                    font-family: 'Roboto Bold';
+                    width: 90%;
+                }
+            }
+            &-socialnetworks {
+                margin-top: 75px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 90%;
+            }
+        }
+    }
+}
