@@ -1,0 +1,42 @@
+.features {
+    padding: 81px 0 90px;
+    text-align: center;
+    &-subheader {
+        @include primary-subheader;
+        margin: 0;
+    }
+    &-header {
+        @include secondary-header;
+        margin: 17px 0 27px;
+    }
+    &-descr {
+        margin: 0;
+        @include primary-text;
+    }
+    &-items {
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+        text-align: left;
+        &-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            width: 19%;
+            margin: 0 26px;
+            &-header {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                p {
+                    @include primary-subheader;
+                    margin: 0;
+                    margin-left: 10px;
+                }
+            }
+            &-descr {
+                @include secondary-text;
+            }
+        }
+    }
+}
