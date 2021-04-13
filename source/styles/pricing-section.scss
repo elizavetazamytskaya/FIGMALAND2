@@ -1,0 +1,81 @@
+.pricing {
+    padding: 110px 0 100px;
+    text-align: center;
+    &-header {
+        @include secondary-header;
+        margin: 0;
+    }
+    &-descr {
+        @include primary-text;
+        margin: 27px 0 90px;
+    }
+    &-items {
+        display: flex;
+        justify-content: space-around;
+        &-item {
+            border: 1px solid #DEDEDE;
+            box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+            border-radius: 10px;
+            padding: 43px 40px 40px;
+            width: 30%;
+            text-align: left;
+            &-btn {
+                @include primary-button__small;
+                padding: 18px 88px;
+                width: 100%;
+                margin-top: 40px;
+            }
+            &-header {
+                @include primary-subheader;
+                margin: 0;
+            }
+            &-descr {
+                font-size: 12px;
+                line-height: 18px;
+                color: #374754;
+                font-family: 'Roboto Bold';
+                margin: 3px 0 27px;
+            }
+            &-price {
+                display: flex;
+                &-number {
+                    @include primary-header;
+                    color: #252B42;
+                    margin: 0;
+                }
+                &-descr {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left: 10px;
+                    &-dollar {
+                        @include primary-subheader;
+                        margin: 0;
+                    }
+                    &-term {
+                        font-size: 12px;
+                        line-height: 18px;
+                        color: #374754;
+                        font-family: 'Roboto Bold';
+                        margin: 0;
+                    }
+                }
+            }
+            &:hover {
+                background: $gradient;
+                p {
+                    color: white;
+                }
+                button {
+                    background: #FFFFFF;
+                    border-radius: 35px;
+                    font-size: 16px;
+                    line-height: 16px;
+                    color: #EF2779;
+                    font-family: 'Roboto Medium';
+                    border: none;
+                }
+            }
+        }
+    }
+}
