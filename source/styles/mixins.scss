@@ -1,4 +1,4 @@
-@mixin primary-button__big {
+@mixin primary-button__big-white {
     background: #FFFFFF;
     border-radius: 35px;
     font-size: 22px;
@@ -8,25 +8,11 @@
     border: none;
     &:hover {
         border: 1px solid #FFFFFF;
-        background: none;
+        background: #38A3F1;
         color: #FFFFFF;
     }
 }
-@mixin primary-button__small {
-    background: #FFFFFF;
-    border-radius: 35px;
-    font-size: 16px;
-    line-height: 16px;
-    color: #2091F9;
-    font-family: 'Roboto Medium';
-    border: none;
-    &:hover {
-        border: 1px solid #FFFFFF;
-        background: none;
-        color: #FFFFFF;
-    }
-}
-@mixin secondary-button__big {
+@mixin primary-button__big-blue {
     background: #2091F9;
     border-radius: 35px;
     font-size: 22px;
@@ -35,12 +21,12 @@
     font-family: 'Roboto Bold';
     border: none;
     &:hover {
-        border: 1px solid #2091F9;
-        background: none;
-        color: #2091F9;
+        border: 1px solid #FFFFFF;
+        background: #FFFFFF;
+        color: #38A3F1;
     }
 }
-@mixin secondary-button__small {
+@mixin primary-button__small{
     background: #2091F9;
     border-radius: 35px;
     font-size: 16px;
@@ -49,9 +35,37 @@
     font-family: 'Roboto Medium';
     border: none;
     &:hover {
-        border: 1px solid #2091F9;
+        border: 1px solid #FFFFFF;
+        background: #FFFFFF;
+        color: #38A3F1;
+    }
+}
+@mixin secondary-button__white {
+    background: #FFFFFF;
+    border-radius: 35px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #EF2779;
+    font-family: 'Roboto Medium';
+    border: none;
+    &:hover {
+        border: none;
+        background: #EF2779;
+        color: #FFFFFF;
+    }
+}
+@mixin secondary-button__pink {
+    background: #EF2779;
+    border-radius: 35px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    font-family: 'Roboto Medium';
+    border: none;
+    &:hover {
+        border: 1px solid #EF2779;
         background: none;
-        color: #2091F9;
+        color: #EF2779;
     }
 }
 @mixin primary-header {
@@ -63,30 +77,20 @@
 @mixin secondary-header {
     font-size: 46px;
     line-height: 57px;
-    color: #FFFFFF;
     font-family: 'Roboto Regular';
 }
 @mixin primary-subheader {
     font-size: 22px;
     line-height: 33px;
-    color: #FFFFFF;
     font-family: 'Roboto Bold';
 }
 @mixin primary-text {
     font-size: 16px;
     line-height: 20px;
-    color: #FFFFFF;
     font-family: 'Roboto Bold';
 }
 @mixin secondary-text__white {
     font-size: 18px;
     line-height: 27px;
-    color: #FFFFFF;
-    font-family: 'Roboto Regular';
-}
-@mixin secondary-text__dark {
-    font-size: 18px;
-    line-height: 27px;
-    color: #374754;
     font-family: 'Roboto Regular';
 }
