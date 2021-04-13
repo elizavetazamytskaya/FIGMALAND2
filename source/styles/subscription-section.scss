@@ -1,0 +1,50 @@
+.subscription {
+    padding: 81px 0 104px;
+    background: $gradient;
+    text-align: center;
+    &-subheader {
+        @include primary-subheader;
+        color: white;
+    }
+    &-header {
+        @include secondary-header;
+        color: white;
+        margin: 7px 0 69px;
+    }
+    &-descr {
+        @include secondary-text;
+        color: white;
+        margin: 10px 0 34px;
+    }
+    &-data {
+        display: flex;
+        flex-direction: column;
+        input {
+            width: 353px;
+            margin: 0 auto;
+            background: #F4F4F4;
+            border: 1px solid #E8E8E8;
+            border-radius: 39px;
+            padding: 13px 0 13px 35px;
+            &::placeholder {
+                font-size: 14px;
+                line-height: 16px;
+                color: #18171D;
+                font-family: 'Roboto Regular';
+            }
+            &:focus {
+                outline: none;
+                opacity: 0.9;
+            }
+        }
+        button {
+            width: 353px;
+            margin: 12px auto 0;
+            @include secondary-button__pink;
+            padding: 17px 0;
+            &:hover {
+                border: 1px solid #FFFFFF;
+            }
+        }
+    }
+}

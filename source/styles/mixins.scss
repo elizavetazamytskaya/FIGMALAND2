@@ -63,9 +63,7 @@
     font-family: 'Roboto Medium';
     border: none;
     &:hover {
-        border: 1px solid #EF2779;
         background: none;
-        color: #EF2779;
     }
 }
 @mixin primary-header {
