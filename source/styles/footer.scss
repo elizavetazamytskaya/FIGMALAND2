@@ -1,0 +1,40 @@
+.footer {
+    padding: 130px 0;
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+    &-pages {
+        &-header {
+            @include primary-subheader;
+            margin: 0 0 9px;
+        }
+        &-name {
+            font-size: 15px;
+            line-height: 27px;
+            color: #252B42;
+            font-family: 'Roboto Regular';
+            margin: 16px 0 0;
+        }
+    }
+    &-contacts {
+        width: 20%;
+        &-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            &-descr {
+                margin: 0 0 0 21px;
+                font-size: 12px;
+                line-height: 18px;
+                color: #374754;
+                font-family: 'Roboto Bold';
+            }
+        }
+        &-socialnetworks {
+            img {
+                margin-right: 32px;
+            }
+        }
+    }
+}

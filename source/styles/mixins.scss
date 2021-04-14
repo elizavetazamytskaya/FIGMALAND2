@@ -76,19 +76,23 @@
     font-size: 46px;
     line-height: 57px;
     font-family: 'Roboto Regular';
+    color: #252B42;
 }
 @mixin primary-subheader {
     font-size: 22px;
     line-height: 33px;
     font-family: 'Roboto Bold';
+    color: #252B42;
 }
 @mixin primary-text {
     font-size: 16px;
     line-height: 20px;
     font-family: 'Roboto Bold';
+    color: #374754;
 }
 @mixin secondary-text {
     font-size: 18px;
     line-height: 27px;
     font-family: 'Roboto Regular';
+    color: #374754;
 }

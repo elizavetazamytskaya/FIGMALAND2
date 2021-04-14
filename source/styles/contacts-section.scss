@@ -90,9 +90,11 @@
             &-socialnetworks {
                 margin-top: 75px;
                 display: flex;
-                justify-content: space-around;
                 align-items: center;
                 width: 90%;
+                img {
+                    margin: 0 15px;
+                }
             }
         }
     }
