@@ -84,7 +84,7 @@
                     line-height: 18px;
                     color: #FFFFFF;
                     font-family: 'Roboto Bold';
-                    width: 90%;
+                    width: 60%;
                 }
             }
             &-socialnetworks {
@@ -94,6 +94,40 @@
                 width: 90%;
                 img {
                     margin: 0 15px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .contacts {
+        &-items {
+            display: flex;
+            flex-direction: column-reverse;
+            &-contacts {
+                &-socialnetworks {
+                    order: -1;
+                    margin: 0 0 92px;
+                    justify-content: center;
+                }
+            }
+            &-message {
+                margin-top: 78px;
+                input {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 472px) {
+    .contacts {
+        &-items {
+            &-contacts {
+                &-item {
+                    p {
+                        width: 70%;
+                    }
                 }
             }
         }

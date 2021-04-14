@@ -40,3 +40,47 @@
         }
     }
 }
+@media (max-width: 1296px) {
+    .features {
+        &-items {
+            align-items: center;
+            &-item {
+                width: 25%;
+            }
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .features {
+        &-items {
+            align-items: center;
+            &-item {
+                width: 30%;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .features {
+        &-items {
+            flex-direction: column;
+            margin-top: 70px;
+            &-item {
+                width: 70%;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+@media (max-width: 419px) {
+    .features {
+        padding: 81px 0 108px;
+        &-items {
+            margin-top: 88px;
+            &-item {
+                width: 70%;
+                margin-top: 90px;
+            }
+        }
+    }
+}

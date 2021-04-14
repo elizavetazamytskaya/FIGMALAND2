@@ -42,3 +42,48 @@
         margin-top: 90px;
     }
 }
+@media (max-width: 1200px) {
+    .partners {
+        &-items {
+            &-item {
+                width: 25%;
+                margin: 103px 30px 0;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .partners {
+        &-items {
+            &-item {
+                width: 40%;
+                margin: 103px 30px 0;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .partners {
+        &-descr {
+            margin: 27px 0 50px;
+        }
+        &-items {
+            &-item {
+                margin: 50px 30px 0;
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .partners {
+        padding: 100px 0 50px;
+        &-descr {
+            @include primary-text;
+        }
+        &-items {
+            &-item {
+                width: 55%;
+            }
+        }
+    }
+}

@@ -43,3 +43,24 @@
         padding: 16px 47px;
     }
 }
+@media (max-width: 992px) {
+    .testimonials {
+        &-descr {
+            width: 60%;
+        }
+    }
+}
+@media (max-width: 473px) {
+    .testimonials {
+        &-descr {
+            width: 70%;
+        }
+    }
+}
+@media (max-width: 419px) {
+    .testimonials {
+        &-descr {
+            width: 80%;
+        }
+    }
+}
